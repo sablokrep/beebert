@@ -4,6 +4,9 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-burn = { version = "0.19.1", features = ["train", "vision", "network", "cpu", "cuda", "ndarray", "wgpu", "dataset", "sqlite", "std", "autodiff", "fusion", "store", "metrics"] }
+anyhow = "1.0.102"
+burn = { version = "0.19.1", features = ["train", "vision", "activation", "network", "cpu", "cuda", "ndarray", "wgpu", "dataset", "sqlite", "std", "autodiff", "fusion", "store", "metrics"] }
 clap = { version = "4.5.60", features = ["derive"] }
+natural = "0.5.0"
+ndarray-csv = "0.5.4"
 rayon = "1.11.0"
