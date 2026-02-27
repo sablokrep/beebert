@@ -6,6 +6,7 @@ mod dna;
 mod vaestruct;
 mod var;
 use crate::var::vaetrain;
+mod transformer;
 
 /*
 Gaurav Sablok,
@@ -27,7 +28,7 @@ fn main() {
                 .unwrap();
             pool.install(|| {
                 let command = vaetrain(fastafile, lengthkeep);
-                println!("The command has finished:{}", command);
+                println!("The command has finished:{:?}", command);
             });
         }
     }

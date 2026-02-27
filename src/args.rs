@@ -4,7 +4,7 @@ use clap::{Parser, Subcommand};
     name = "beebert",
     version = "1.0",
     about = "     beebert: Variantional Autoencoder for
-          Bee Olfactory sequence prediction
+                    Bee Olfactory sequence prediction
        ************************************************
        Author Gaurav Sablok,
        Email: codeprog@icloud.com

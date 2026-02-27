@@ -4,6 +4,7 @@ use burn::tensor::TensorData;
 use std::error::Error;
 use std::fs::File;
 use std::io::{BufRead, BufReader};
+
 /*
 Gaurav Sablok
 codeprog@icloud.com
